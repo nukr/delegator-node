@@ -1,0 +1,28 @@
+{
+  "name": "delegator",
+  "version": "1.0.0",
+  "description": "delegator",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test"
+  },
+  "keywords": [
+    "javascript",
+    "delegator",
+    "switch",
+    "case"
+  ],
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "author": "nukr",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "babel-preset-es2015-node6": "^0.2.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
